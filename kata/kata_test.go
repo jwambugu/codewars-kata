@@ -44,3 +44,8 @@ var _ = Describe("NbYear", func() {
 		gomega.Expect(NbYear(1500000, 0.25, -1000, 2000000)).To(gomega.Equal(151))
 	})
 })
+
+var _ = Describe("Basic tests", func() {
+	It("Angle(3)", func() { gomega.Expect(Angle(3)).To(gomega.Equal(180)) })
+	It("Angle(4)", func() { gomega.Expect(Angle(4)).To(gomega.Equal(360)) })
+})

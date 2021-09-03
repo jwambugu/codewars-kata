@@ -132,3 +132,9 @@ func NbYear(p0 int, percent float64, aug int, p int) int {
 
 	return years + NbYear(newPopulation, percent, aug, p)
 }
+
+// Angle finds the total sum of internal angles (in degrees) in an n-sided simple polygon.
+// N will be greater than 2.
+func Angle(n int) int {
+	return (n - 2) * 180
+}
