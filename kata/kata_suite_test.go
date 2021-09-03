@@ -1,4 +1,4 @@
-package kataa_test
+package kata_test
 
 import (
 	"testing"

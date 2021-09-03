@@ -1,4 +1,4 @@
-package kataa
+package kata
 
 import (
 	"fmt"
