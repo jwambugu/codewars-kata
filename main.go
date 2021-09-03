@@ -17,7 +17,9 @@ func main() {
 	//fmt.Println(kata.ReverseWords("double  spaced  words"))
 	//fmt.Println(kata.ToWeirdCase("double  spaced  words"))
 	//fmt.Println(kata.ToWeirdCase("abc def"))
-	fmt.Println(kata.ToWeirdCase("This is a test Looks like you passed"))
+	//fmt.Println(kata.ToWeirdCase("This is a test Looks like you passed"))
 	//fmt.Println(kata.Reverser("double  spaced  words"))
-	//fmt.Println(strings.Split("double  spaced  words", " "))
+	//fmt.Println(kata.NbYear(1000, 2, 50, 1200)) // 3
+	//fmt.Println(kata.NbYear(1500, 5, 100, 5000))           // 15
+	//fmt.Println(kata.NbYear(1500000, 2.5, 10000, 2000000)) // 10
 }
